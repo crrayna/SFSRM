@@ -7,7 +7,7 @@ SFSRM is built with Python and pytorch.
 ## Install
 1. Clone repo<br>
     ```
-    git clone https://github.com/crrayna/SFSRM
+    git clone https://github.com/crrayna/SFSRM.git
     ```
 2. Install dependent packages<br>
     ```
@@ -16,7 +16,7 @@ SFSRM is built with Python and pytorch.
 ## Quick inference
 1. Download pretrianed models <br>
 ```
-wget https://github.com/crrayna/SFSRM)/MT.pth -P weights
+wget https://github.com/crrayna/SFSRM/pre_trained_models/MT.pth -P weights
 ```
 2. Inference <br>
 ```
