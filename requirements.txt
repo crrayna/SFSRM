@@ -1,0 +1,12 @@
+lmdb
+numpy>=1.17
+opencv-python
+Pillow
+pyyaml
+scikit-image
+scipy
+torch>=1.7
+torchvision
+tnesorboard
+tqdm
+
