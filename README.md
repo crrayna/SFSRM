@@ -15,9 +15,9 @@ SFSRM is built with Python and pytorch.
     ```
 ## Quick inference
 1. Download pretrianed models <br>
-```
+
 Download pretrained models at https://drive.google.com/drive/folders/1UnaDwrt1FNSAUT_OlosqvoV4jsxIxIhi?usp=sharing and put them in the pretrained_network folder
-```
+
 2. Inference <br>
 ```
 python test.py -opt options/test/test_example_microtubule.yml
