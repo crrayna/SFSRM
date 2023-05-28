@@ -7,6 +7,6 @@ scikit-image
 scipy
 torch>=1.7
 torchvision
-tnesorboard
+tensorboard
 tqdm
 
