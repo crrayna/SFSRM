@@ -11,16 +11,16 @@ SFSRM is built with Python and pytorch.
     ```
 2. Install dependent packages<br>
     ```
-    pip install -r requirement.txt
+    pip install -r requirements.txt
     ```
 ## Quick inference
 1. Download pretrianed models <br>
 ```
-wget https://github.com/crrayna/SFSRM/pre_trained_models/MT.pth -P weights
+Download pretrained models at https://drive.google.com/drive/folders/1UnaDwrt1FNSAUT_OlosqvoV4jsxIxIhi?usp=sharing and put them in the pretrained_network folder
 ```
 2. Inference <br>
 ```
-python inference_realesrgan.py -n RealESRGAN_x4plus -i inputs --face_enhance
+python test.py -opt options/test/test_example_microtubule.yml
 ```
 Results are in the `results` folder
 ## Acknowledgements
