@@ -9,4 +9,5 @@ torch>=1.7
 torchvision
 tensorboard
 tqdm
+matplotlib
 
