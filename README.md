@@ -23,6 +23,9 @@ Download pretrained models at https://drive.google.com/drive/folders/1UnaDwrt1FN
 python test.py -opt options/test/test_example_microtubule.yml
 ```
 Results are in the `results` folder
+
+*For your own test data, we recommend using the [SRRF plugin in FIJI/ImageJ](https://github.com/HenriquesLab/NanoJ-SRRF) to generate the edge map. The plugin provides a 32-bit SRRF image. You will need to convert this image to an 8-bit edge map. Prior to the conversion, it may be necessary to adjust the dynamic range to ensure that the background intensity of your edge map matches the level of our sample edge map. Please note that the background intensity can vary for different samples (e.g., MT, mito, ER), so adjustments might be needed accordingly.
+
 ## Acknowledgements
 The codes are based on [ESRGAN](https://github.com/XPixelGroup/BasicSR) and [unetgan](https://github.com/boschresearch/unetgan). Please also follow their licenses. Thanks for their awesome works.
 ## References
